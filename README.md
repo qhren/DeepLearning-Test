@@ -19,6 +19,8 @@
 + 参考网络上的相关博客以及教程，对**CNN**的基本结构特点有了基本的了解，了解了它被提出的**Motivation**
 + **对照全连接网络**，比较反向传播的不同点，推导了反向传播的**Mathmatical Form**
 + 对**CNN**中的**Backprop**算法进行实现，测试在**Mnist DataSheet**上的影响
-+  To be Continued:仿真时程序串行运行的效率太低，跑完大样本需要的时间太长，需要考虑能否使用**多进程**进行优化
+
+####  To be Continued:
++ 仿真时程序串行运行的效率太低，跑完大样本需要的时间太长，需要考虑能否使用**多进程**进行优化
 
 ### Build A CNN Net in TensorFlow
