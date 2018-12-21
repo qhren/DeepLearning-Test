@@ -10,6 +10,15 @@
 ### Build A Simple Net in TensorFlow
 + 在**TensorFlow**框架的支持下，编写了一个简单的全连接网络
 + 了解了Tensorboard可视化**Compute Graph**和对**Train**时的**Cost**的监控，以及对网络中的**Paras**进行监控的方法
-+ To be Continue:**TensorFlow中的调试器**
++ To be Continued:**TensorFlow中的调试器**
 
 -------------------------------------------------------------------------------------------------------------------------------------------
+## Convolution NetWork in Mnist
+-------------------------------------------------------------------------------------------------------------------------------------------
+### Pure Python with Numpy
++ 参考网络上的相关博客以及教程，对**CNN**的基本结构特点有了基本的了解，了解了它被提出的**Motivation**
++ **对照全连接网络**，比较反向传播的不同点，推导了反向传播的**Mathmatical Form**
++ 对**CNN**中的**Backprop**算法进行实现，测试在**Mnist DataSheet**上的影响
++  To be Continued:仿真时程序串行运行的效率太低，跑完大样本需要的时间太长，需要考虑能否使用**多进程**进行优化
+
+### Build A CNN Net in TensorFlow
