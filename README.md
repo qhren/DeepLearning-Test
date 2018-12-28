@@ -25,7 +25,7 @@
 + 通过对CNN学习到的**Feature Map**进行[**Deconv**](https://github.com/qhren/DeepLearning_Test/tree/master/Classification%20on%20Mnist%20Data/A_Simple_Convolutional_Network/Visualization_CNN_Network%E5%8F%82%E8%80%83%E8%AE%BA%E6%96%87)，严格意义上来说，论文中使用的是**Transpose Conv**，可类比于卷积层的误差测度的反向传播，作特征的上采样，考虑到自编的CNN模型比较简单，无法进行多层的观测，这一部分打算用框架完成
 
 ### Build A CNN Net in TensorFlow
-+ 搭建了三层的简单**卷积神经网络**，采用**Adam**的优化随机梯度下降算法，实现了**Mnist**数据集的**98%**的准确率
++ 搭建了三层的简单**卷积神经网络**，采用**Adam**的优化随机梯度下降算法，实现了**Mnist**数据集的**98**%的准确率
 + **计算图的结构**和**Train**过程中参数的变化可通过**TensorBoard**进行可视化
 
 
